@@ -1,0 +1,9 @@
+{
+  "name": "test-vm",
+  "version": "0.0.0",
+  "private": true,
+  "devDependencies": {
+    "express-generator": "^4.11.2",
+    "flightplan": "^0.6.0"
+  }
+}
