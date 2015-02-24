@@ -14,7 +14,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # specify provision script
   config.vm.provision :shell, :path => "vm_provision/provision-ubuntu-14.04.sh"
   # specify shared folder
-  config.vm.synced_folder "app/", "/vagrant"
+  config.vm.synced_folder "node-app/", "/vagrant"
   # 1GB memory
   config.vm.provider "virtualbox" do |vb|
    vb.customize ["modifyvm", :id, "--memory", "1024"]
